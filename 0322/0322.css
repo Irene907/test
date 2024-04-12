@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  background: linear-gradient(45deg, blue, olive);
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid black;
+}
+.circle {
+  padding: 1rem;
+  flex: 0 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid green;
+}
+.circle-pic img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.circle-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle-txt {
+  margin-top: 0.5rem;
+}
